@@ -5,6 +5,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: white;
 }
 .status-bar__column {
   width: 33%;
@@ -20,7 +21,8 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-right: 7px;
 }
 .status-bar__column .fa-battery-quarter {
-  margin: 0px 5px;
+  margin: 0px 3px;
 }
