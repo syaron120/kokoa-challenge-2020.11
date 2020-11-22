@@ -6,6 +6,8 @@
   width: 100%;
   top: 20px;
   box-sizing: border-box;
+  background-color: #e7e2e2;
+  margin-top: 4px;
 }
 .screen-header__title {
   font-size: 32px;
@@ -13,9 +15,21 @@
 }
 .screen-header__icons span {
   position: relative;
-  top: 8px;
   margin-left: 25px;
 }
+.screen-header__icons {
+  display: flex;
+  align-items: center;
+}
 .bodypadding {
-  padding-top: 100px;
+  padding-top: 104px;
 } /* break collapsing margin */
+.main-screen__chats {
+  margin-top: 18px;
+}
+.screen-header__box {
+  margin-left: 15px;
+  margin-bottom: 1px;
+  display: flex;
+  position: relative;
+}

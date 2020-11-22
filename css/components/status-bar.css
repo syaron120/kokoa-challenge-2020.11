@@ -5,7 +5,8 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: white;
+  color: white;
+  background-color: rgb(114, 113, 113);
 }
 .status-bar__column {
   width: 33%;
