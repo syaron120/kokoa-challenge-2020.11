@@ -15,9 +15,9 @@
 .user-component__title {
   font-weight: 800;
   font-size: 22px;
+  margin-bottom: 8px;
 }
 .user-component__subtitle {
-  margin-top: 8px;
   color: rgba(0, 0, 0, 0.4);
   font-size: 17px;
 }
@@ -44,4 +44,21 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+.Exclamation-mark {
+  border: 1.5px solid red;
+  background-color: white;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-weight: 600;
+  margin-left: 3px;
+}
+.user-component__exclamation {
+  display: flex;
+  align-items: center;
 }
