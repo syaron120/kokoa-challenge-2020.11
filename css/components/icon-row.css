@@ -1,0 +1,18 @@
+.icon-row-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-row-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.icon-row-icons__icon i {
+  color: rgb(94, 92, 92);
+  font-size: 35px;
+}
+.icon-row-icons__icon span {
+  margin-top: 18px;
+}

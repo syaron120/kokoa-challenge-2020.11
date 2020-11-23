@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats - Kokoa Clone</title>
+    <title>Settings - Kokoa Clone</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="bodypadding">
+    <div class="bodypadding-alt">
       <div class="status-bar">
         <div class="status-bar__column">
           <!--status-bar__column is BEM CSS-->
@@ -27,39 +27,42 @@
         </div>
       </div>
 
-      <header class="screen-header">
-        <h1 class="screen-header__title">Chats</h1>
-        <div class="screen-header__icons">
-          <span><i class="fas fa-search fa-lg"></i></span>
-          <span><i class="far fa-comment-dots fa-lg"></i></span>
-          <span><i class="fas fa-music fa-lg"></i></span>
-          <span
-            ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
-          ></span>
+      <header class="alt-header">
+        <div class="alt-header__column">
+          <a href="more.html"> <i class="fas fa-angle-left fa-2x"></i></a>
+        </div>
+        <div class="alt-header__column">
+          <h1 class="alt-header__title">Settings</h1>
+        </div>
+        <div class="alt-header__column">
+          <i class="fas fa-search fa-lg"></i>
         </div>
       </header>
 
-      <main class="main-screen main-screen__margin-bottom">
-        <a href="chat.html">
-          <div class="user-component">
-            <div class="user-component__column">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuH3jYLS2mgsHFDDBbENTf3AcH5LkqRwh3BQ&usqp=CAU"
-                class="user-compont__avatar user-compont__avatar"
-              />
-              <div class="user-component__text">
-                <h4 class="user-component__title">Cocoa</h4>
-                <h6 class="user-component__subtitle">
-                  Please Check My Kokoa account Info...
-                </h6>
-              </div>
+      <main class="main-screen more-screen main-screen__margin-bottom">
+        <ul class="setting-list">
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="fas fa-bullhorn"></i>
+              <span>Notice</span>
             </div>
-            <div class="user-component__column">
-              <span class="user-component__time">14:52</span>
-              <div class="badge">1</div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="fas fa-flask"></i>
+              <span> KoKoa Lab</span>
             </div>
-          </div>
-        </a>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="fas fa-info-circle"></i>
+              <span>Version</span>
+            </div>
+            <div class="settings__setting-column">Latest Version</div>
+          </li>
+        </ul>
       </main>
 
       <nav class="nav">
@@ -72,7 +75,7 @@
           <li class="nav__btn">
             <a class="nav__link" href="chats.html">
               <span class="nav__notification badge">1</span>
-              <i class="fas fa-comment fa-2x"></i
+              <i class="far fa-comment fa-2x"></i
             ></a>
           </li>
           <li class="nav__btn">
@@ -82,7 +85,6 @@
           </li>
           <li class="nav__btn">
             <a class="nav__link" href="more.html">
-              <span class="nav__notificationtwo"></span>
               <i class="fas fa-ellipsis-h fa-2x"></i
             ></a>
           </li>
